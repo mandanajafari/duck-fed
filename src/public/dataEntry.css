@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    width: 100%;
+    justify-content: center
+}
+
+.container .form {
+    width: 70%;
+}
+
+.container .form .form-item {
+    display: flex;
+    width: 100%;
+    line-height: 28px;
+}
+
+.container .form .form-item.error .control input, .container .form .form-item.error .control select {
+    border-color: red;
+}
+
+
+.container .form .form-item .label {
+    width: 30%;
+    text-align: right;
+}
+
+.container .form .form-item .control {
+    width: 70%;
+    padding-left: 10px;
+}
+
+.container .form .form-item .control .input, select {
+    width: 100%;
+}
+
+.container .form .commands {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 10px;
+}
+
+.container .form .commands .submit {
+    
+}
